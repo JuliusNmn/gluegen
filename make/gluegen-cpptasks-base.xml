@@ -1250,6 +1250,7 @@
       <compilerarg value="-arch" if="use.macosx64"/>
       <compilerarg value="arm64" if="use.macosx64"/>
       <compilerarg value="-Wmost" />
+      <compilerarg value="-Wno-error=int-conversion" />
       <compilerarg value="-ObjC" />
       <compilerarg value="-mmacosx-version-min=10.7"/>
       <!-- sysincludepath path="${macosx.sdkroot}" if="macosx.sdkroot"/ -->
@@ -1265,6 +1266,7 @@
       <compilerarg value="-arch"/>
       <compilerarg value="x86_64"/>
       <compilerarg value="-Wmost" />
+      <compilerarg value="-Wno-error=int-conversion" />
       <compilerarg value="-ObjC" />
       <compilerarg value="-miphoneos-version-min=11.0"/>
       <!-- sysincludepath path="${macosx.sdkroot}" if="macosx.sdkroot"/ -->
